@@ -1,0 +1,24 @@
+{
+  "name": "udacity-portfolio-project",
+  "version": "1.0.0",
+  "description": "Projecy of portfolio made for udacity nanodegree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jabarlew/udacity-portfolio-project.git"
+  },
+  "keywords": [],
+  "author": "Bartosz Lewandowski <barlewdesign@gmial.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jabarlew/udacity-portfolio-project/issues"
+  },
+  "homepage": "https://github.com/Jabarlew/udacity-portfolio-project#readme",
+  "browserslist": [
+    "last 4 versions",
+    "ie 11"
+  ]
+}
