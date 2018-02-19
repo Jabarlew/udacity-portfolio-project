@@ -1,4 +1,4 @@
-.bubbles-animation-bg {
+.squares-animation-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -11,7 +11,7 @@
   background-color: #fff;
 }
 
-.bubbles-animation-bg li {
+.squares-animation-bg li {
   position: absolute;
   bottom: -200px;
   list-style: none;
@@ -25,7 +25,7 @@
 }
 
 
-.bubbles-animation-bg li:nth-child(1) {
+.squares-animation-bg li:nth-child(1) {
   width: 200px;
   height: 200px;
   left: 5%;
@@ -36,7 +36,7 @@
           animation-duration: 15s;
 }
 
-.bubbles-animation-bg li:nth-child(2) {
+.squares-animation-bg li:nth-child(2) {
   width: 150px;
   height: 150px;
   left: 20%;
@@ -47,7 +47,7 @@
           animation-duration: 13s;
 }
 
-.bubbles-animation-bg li:nth-child(3) {
+.squares-animation-bg li:nth-child(3) {
   width: 50px;
   height: 50px;
   left: 30%;
@@ -58,7 +58,7 @@
           animation-duration: 14s;
 }
 
-.bubbles-animation-bg li:nth-child(4) {
+.squares-animation-bg li:nth-child(4) {
   width: 80px;
   height: 80px;
   left: 40%;
@@ -69,7 +69,7 @@
           animation-duration: 15s;
 }
 
-.bubbles-animation-bg li:nth-child(5) {
+.squares-animation-bg li:nth-child(5) {
   width: 120px;
   height: 120px;
   left: 45%;
@@ -79,7 +79,7 @@
   -webkit-animation-duration: 12s;
           animation-duration: 12s;
 }
-.bubbles-animation-bg li:nth-child(6) {
+.squares-animation-bg li:nth-child(6) {
   width: 130px;
   height: 130px;
   left: 55%;
@@ -90,7 +90,7 @@
           animation-duration: 17s;
 }
 
-.bubbles-animation-bg li:nth-child(7) {
+.squares-animation-bg li:nth-child(7) {
   width: 60px;
   height: 60px;
   left: 30%;
@@ -101,7 +101,7 @@
           animation-duration: 17s;
 }
 
-.bubbles-animation-bg li:nth-child(8) {
+.squares-animation-bg li:nth-child(8) {
   width: 60px;
   height: 60px;
   left: 76%;
@@ -112,7 +112,7 @@
           animation-duration: 13s;
 }
 
-.bubbles-animation-bg li:nth-child(9) {
+.squares-animation-bg li:nth-child(9) {
   width: 100px;
   height: 100px;
   left: 80%;
@@ -123,7 +123,7 @@
           animation-duration: 22s;
 }
 
-.bubbles-animation-bg li:nth-child(10) {
+.squares-animation-bg li:nth-child(10) {
   width: 200px;
   height: 200px;
   left: 85%;
