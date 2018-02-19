@@ -4,6 +4,8 @@
   "description": "Projecy of portfolio made for udacity nanodegree",
   "main": "index.js",
   "scripts": {
+    "start": "browser-sync start -s 'docroot' -f 'docroot'",
+    "ngrok": "ngrok http 3000 --log 'stdout' --log-level 'debug'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,9 @@
   "browserslist": [
     "last 4 versions",
     "ie 11"
-  ]
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "ngrok": "^2.2.26"
+  }
 }
