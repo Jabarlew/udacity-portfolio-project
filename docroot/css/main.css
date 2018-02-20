@@ -5,3 +5,8 @@
   align-items: center;
   height: 70vh;
 }
+
+.works-gallery {
+  width: 100%;
+  height: auto;
+}

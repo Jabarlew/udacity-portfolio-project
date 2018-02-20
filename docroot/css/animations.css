@@ -9,6 +9,7 @@
   z-index: -1;
   overflow: hidden;
   background-color: #fff;
+  pointer-events: none;
 }
 
 .squares-animation-bg li {
