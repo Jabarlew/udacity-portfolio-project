@@ -11,14 +11,7 @@ html {
   line-height: 1.6;
 }
 
-hr {
-  width: 100px;
-  height: 3px;
-  border: 0;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-  background-color: #34495e;
-}
+
 
 h1 {
   font-size: 2.6rem;
@@ -30,5 +23,26 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+.section-label-flex{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.line-next-to-label {
+  height: .3rem;
+  width: 12%;
+  background-color: black;
+  margin-right: .5rem;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
 
 
