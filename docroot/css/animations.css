@@ -142,8 +142,8 @@
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-1900px) rotate(800deg);
-            transform: translateY(-1900px) rotate(800deg);
+    -webkit-transform: translateY(-1900px) rotate(999deg);
+            transform: translateY(-1900px) rotate(999deg);
   }
 }
 
@@ -153,8 +153,8 @@
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-1900px) rotate(800deg);
-            transform: translateY(-1900px) rotate(800deg);
+    -webkit-transform: translateY(-1900px) rotate(999deg);
+            transform: translateY(-1900px) rotate(999deg);
   }
 }
 

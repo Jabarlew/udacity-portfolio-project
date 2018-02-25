@@ -12,11 +12,12 @@
   justify-content: space-between;
 }
 
-.main-footer-connect-icons h4{
+.main-footer-connect-icons h4 {
   flex-basis: 100%;
   text-align: center;
   margin-bottom: 3rem;
 }
+
 .main-footer i {
   color: #fff;
   font-size: 4rem;
@@ -44,7 +45,28 @@
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
-
 }
 
+.main-footer-copyrights h3 {
+  text-align: center;
+  padding: .5rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
 
+.main-footer-copyrights a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (min-width:650px){
+  .main-footer-section-links-list {
+    flex-direction: row;
+  }
+
+  .main-footer-section-links-list li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}

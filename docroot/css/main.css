@@ -26,7 +26,16 @@
   align-items: flex-start;
 }
 
+.element-one, .element-two, .element-three, .element-four {
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .works-gallery img {
+  max-width: 100%;
   margin-top: .5rem;
   margin-bottom: .5rem;
   padding-left: 2rem;
@@ -43,7 +52,7 @@
 
 .about-me-flex {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   margin-top: .5rem;
@@ -52,17 +61,22 @@
   padding-right: 2rem;
 }
 
+.about-me-flex p {
+  margin-top: .5rem;
+}
+
 .contact-me-form {
   display: flex;
-  width: 100%;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-left: 2rem;
   padding-right: 2rem;
   margin-bottom: 2.5rem;
 }
 
 input[type=text], input[type=email], textarea {
+  max-width: 600px;
   display: block;
   outline: none;
   width: 100%;
@@ -96,6 +110,16 @@ textarea {
   min-height: 4.5rem;
   transition: all 0.15s ease-in-out, transform 0.15s ease-in-out;
 }
+
+@media (min-width:650px){
+  .element-one, .element-two, .element-three, .element-four {
+    flex-basis: 50%;
+  }
+}
+@media (min-width:1240px){
+
+
+
 
 
 
