@@ -31,7 +31,17 @@
   border: 0;
   position: relative;
   z-index: 10;
-  transition: color 1s ease-in-out 0s;
+  transition: color 300ms ease-in-out 0s;
+}
+
+.main-header-nav-toggle::before {
+  content: "\f0c9";
+  /* transition: color 300ms ease-in-out 0s; */
+}
+
+.menu-open .main-header-nav-toggle::before {
+  content: "\f00d";
+  transition: color 300ms ease-in-out 0s;
 }
 
 .fa-bars {
@@ -40,7 +50,7 @@
   z-index: 10;
 }
 
-.fa-bars-off {
+.menu-open .main-header-nav-toggle {
   color: #fff;
 }
 

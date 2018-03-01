@@ -167,10 +167,10 @@
   background-color: #000000;
   opacity: .9;
   transform: translate(-1500vw, -1500vh);
-  transition: transform 1s ease-in-out 0s;
+  transition: transform 500ms ease-in-out 0s;
 }
 
-.animation-circle-off {
+.menu-open .animation-circle {
   transform: translate(-50%,-50%);
 }
 
@@ -186,11 +186,11 @@
   letter-spacing: 1.5px;
   opacity: 0;
   transform: translateY(-1000vh);
-  transition: transform 1s ease-in-out 0s, opacity 1s linear;
+  transition: transform 500ms ease-in-out 0s, opacity 1s linear;
 }
 
 
-.menu-fixed-list-off {
+.menu-open .menu-fixed-list {
   transform: translate(-50%,-50%);
   opacity: 1;
 }
