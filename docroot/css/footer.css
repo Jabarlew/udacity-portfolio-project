@@ -3,6 +3,8 @@
   background-color: #000;
   color: #fff;
   padding-top: .5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .main-footer-connect-icons {
@@ -21,8 +23,8 @@
 .main-footer i {
   color: #fff;
   font-size: 4rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .main-footer-section-links-list {
@@ -61,6 +63,7 @@
 }
 
 @media (min-width:650px) {
+
   .main-footer-section-links-list {
     flex-direction: row;
   }

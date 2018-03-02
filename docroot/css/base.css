@@ -13,6 +13,7 @@ html {
 
 .menu-open {
   overflow-y: hidden;
+  cursor: pointer;
 }
 
 h1 {

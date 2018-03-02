@@ -2,8 +2,8 @@
   font-size: 2rem;
   top: 0;
   height: 5rem;
-  /* background-color: transparent; */
   position: sticky;
+  z-index: 2;
 }
 
 .main-header-nav {
