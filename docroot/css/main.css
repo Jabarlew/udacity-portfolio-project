@@ -102,6 +102,7 @@ textarea {
 }
 
 .contact-form-button {
+  position: relative;
   font-size: 1.5rem;
   margin-top: 2rem;
   background-color: #fff;
@@ -111,8 +112,37 @@ textarea {
   cursor: pointer;
   min-width: 15rem;
   min-height: 4.5rem;
-  transition: all 0.15s ease-in-out, transform 0.15s ease-in-out;
+  overflow: hidden;
 }
+
+.contact-form-button span {
+  position: relative;
+  color: #000;
+  transition: .5s ease-in-out;
+}
+
+.contact-form-button::before {
+  content: "";
+  width: 30rem;
+  height: 30rem;
+  background-color: #000;
+  position: absolute;
+  top: -600%;
+  left: -250%;
+  border-radius: 50%;
+  transition: .5s ease-in-out;
+  z-index: 0;
+}
+
+.contact-form-button:hover::before {
+  top: -200%;
+  left: -50%;
+}
+
+.contact-form-button:hover span {
+  color: #fff;
+}
+
 
 @media (min-width:650px) {
   .works-gallery-element {
@@ -174,3 +204,5 @@ textarea {
     margin: 5rem;
   }
 }
+
+
